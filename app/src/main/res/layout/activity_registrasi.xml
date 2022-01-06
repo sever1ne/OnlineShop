@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+
+    tools:context=".RegistrasiActivity">
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pextrabold"
+                android:text="REGISTRASI"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/pmedium"
+            android:padding="5dp"
+            android:text="NAMA LENGKAP"
+            android:textColor="#000"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/editNamaLengkapRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pregular"
+            android:textColor="#112222"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/pmedium"
+            android:padding="5dp"
+            android:text="USERNAME"
+            android:textColor="#000"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/editUsernameRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pregular"
+            android:textColor="#112222"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/pmedium"
+            android:padding="5dp"
+            android:text="PASSWORD"
+            android:textColor="#000"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/editPasswordRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pregular"
+            android:inputType="textPassword"
+            android:textColor="#112222"
+            android:textSize="17dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/btnRegistasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="mendaftar"
+                android:layout_marginRight="5dp"
+                android:textSize="12dp"
+                />
+
+            <Button
+                android:id="@+id/btnReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:text="kembali"
+                android:textSize="12dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3dp"
+    tools:context=".UpdateActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE PROFILE"
+        android:fontFamily="@font/pmedium"
+        android:paddingStart="40px"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="18dp"
+        android:paddingTop="5dp"
+        android:textColor="#fff"
+        android:background="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan perbaharui data anda"
+        android:fontFamily="@font/plight"
+        android:paddingStart="40px"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:background="#000"
+        android:textColor="#fff"
+        android:textSize="10dp"
+        android:paddingBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="12dp"
+        android:text="Username"
+        android:paddingTop="45dp"
+        android:paddingBottom="5dp"
+        android:fontFamily="@font/pmedium"
+        android:textSize="12dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+    <EditText
+        android:id="@+id/editUsernameUpdate"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/pregular"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:text="Password Lama"
+        android:padding="5dp"
+        android:fontFamily="@font/pmedium"
+        android:textSize="12dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+    <EditText
+        android:id="@+id/editPassOldUpdate"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/pregular"
+        android:inputType="textPassword"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:text="Password Baru"
+        android:padding="5dp"
+        android:fontFamily="@font/pmedium"
+        android:textSize="12dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <EditText
+        android:id="@+id/editPassNowUpdate"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/pregular"
+        android:inputType="textPassword"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:text="Update"
+            android:textSize="12dp"
+            />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Cancel"
+            android:textSize="12dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
